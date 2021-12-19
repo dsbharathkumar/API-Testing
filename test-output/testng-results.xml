@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="31" passed="31" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-19T11:49:56Z" name="Suite" finished-at="2021-12-19T11:50:03Z" duration-ms="7024">
+    <groups>
+    </groups>
+    <test started-at="2021-12-19T11:49:56Z" name="Test1" finished-at="2021-12-19T11:50:01Z" duration-ms="4200">
+      <class name="TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:56Z" name="beforeClass" finished-at="2021-12-19T11:49:59Z" duration-ms="2470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Access-Control-Allow-Origin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[*]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Access-Control-Expose-Headers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[spacex-api-cache,spacex-api-response-time]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alt-Svc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h3=":443"; ma=2592000,h3-29=":443"; ma=2592000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cache-Control]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[max-age=20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content-Encoding]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gzip]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content-Security-Policy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content-Type]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[application/json; charset=utf-8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Expect-Ct]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[max-age=0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Referrer-Policy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no-referrer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Server]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Caddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spacex-Api-Cache]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HIT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spacex-Api-Cache-Online]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Spacex-Api-Response-Time]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0ms]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Strict-Transport-Security]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[max-age=15552000; includeSubDomains]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vary]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Accept-Encoding]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[X-Content-Type-Options]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nosniff]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[X-Dns-Prefetch-Control]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[off]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[X-Download-Options]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[noopen]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[X-Frame-Options]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SAMEORIGIN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[X-Permitted-Cross-Domain-Policies]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[none]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method signature="validateHeaders(java.lang.String, java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="validateHeaders" data-provider="apiDataProvider" finished-at="2021-12-19T11:49:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content-Length]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[930]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaders -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers@5c669da8]" started-at="2021-12-19T11:49:59Z" name="afterClass" finished-at="2021-12-19T11:49:59Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TS_001_V4_GET_REQUEST.TC002_GET_Validating_Headers -->
+      <class name="TS_001_V4_GET_REQUEST.TC001_GET_Request">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TS_001_V4_GET_REQUEST.TC001_GET_Request@31920ade]" started-at="2021-12-19T11:49:59Z" name="beforeClass" finished-at="2021-12-19T11:50:01Z" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="getLatestLaunchDetails()[pri:0, instance:TS_001_V4_GET_REQUEST.TC001_GET_Request@31920ade]" started-at="2021-12-19T11:50:01Z" name="getLatestLaunchDetails" finished-at="2021-12-19T11:50:01Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLatestLaunchDetails -->
+        <test-method signature="verifyResponseTime()[pri:0, instance:TS_001_V4_GET_REQUEST.TC001_GET_Request@31920ade]" started-at="2021-12-19T11:50:01Z" name="verifyResponseTime" finished-at="2021-12-19T11:50:01Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseTime -->
+        <test-method signature="verifyStatusCode()[pri:0, instance:TS_001_V4_GET_REQUEST.TC001_GET_Request@31920ade]" started-at="2021-12-19T11:50:01Z" name="verifyStatusCode" finished-at="2021-12-19T11:50:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCode -->
+        <test-method signature="verifyStatusLine()[pri:0, instance:TS_001_V4_GET_REQUEST.TC001_GET_Request@31920ade]" started-at="2021-12-19T11:50:01Z" name="verifyStatusLine" finished-at="2021-12-19T11:50:01Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusLine -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TS_001_V4_GET_REQUEST.TC001_GET_Request@31920ade]" started-at="2021-12-19T11:50:01Z" name="afterClass" finished-at="2021-12-19T11:50:01Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TS_001_V4_GET_REQUEST.TC001_GET_Request -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-12-19T11:50:01Z" name="Test2" finished-at="2021-12-19T11:50:03Z" duration-ms="2773">
+      <class name="TS_001_V4_GET_REQUEST.TC003_GET_Print_All_Headers">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TS_001_V4_GET_REQUEST.TC003_GET_Print_All_Headers@5b7a8434]" started-at="2021-12-19T11:50:01Z" name="beforeClass" finished-at="2021-12-19T11:50:02Z" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="printAllHeaders()[pri:0, instance:TS_001_V4_GET_REQUEST.TC003_GET_Print_All_Headers@5b7a8434]" started-at="2021-12-19T11:50:02Z" name="printAllHeaders" finished-at="2021-12-19T11:50:02Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printAllHeaders -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TS_001_V4_GET_REQUEST.TC003_GET_Print_All_Headers@5b7a8434]" started-at="2021-12-19T11:50:02Z" name="afterClass" finished-at="2021-12-19T11:50:02Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TS_001_V4_GET_REQUEST.TC003_GET_Print_All_Headers -->
+      <class name="TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response@5c45d770]" started-at="2021-12-19T11:50:02Z" name="beforeClass" finished-at="2021-12-19T11:50:03Z" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="validatingJsonResponse(java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response@5c45d770]" started-at="2021-12-19T11:50:03Z" name="validatingJsonResponse" data-provider="apiDataProvider" finished-at="2021-12-19T11:50:03Z" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[recovery-attempt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingJsonResponse -->
+        <test-method signature="validatingJsonResponse(java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response@5c45d770]" started-at="2021-12-19T11:50:03Z" name="validatingJsonResponse" data-provider="apiDataProvider" finished-at="2021-12-19T11:50:03Z" duration-ms="362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[links]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingJsonResponse -->
+        <test-method signature="validatingJsonResponse(java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response@5c45d770]" started-at="2021-12-19T11:50:03Z" name="validatingJsonResponse" data-provider="apiDataProvider" finished-at="2021-12-19T11:50:03Z" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[window]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingJsonResponse -->
+        <test-method signature="validatingJsonResponse(java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response@5c45d770]" started-at="2021-12-19T11:50:03Z" name="validatingJsonResponse" data-provider="apiDataProvider" finished-at="2021-12-19T11:50:03Z" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingJsonResponse -->
+        <test-method signature="validatingJsonResponse(java.lang.String)[pri:0, instance:TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response@5c45d770]" started-at="2021-12-19T11:50:03Z" name="validatingJsonResponse" data-provider="apiDataProvider" finished-at="2021-12-19T11:50:03Z" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[flight_number]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingJsonResponse -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response@5c45d770]" started-at="2021-12-19T11:50:03Z" name="afterClass" finished-at="2021-12-19T11:50:03Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TS_001_V4_GET_REQUEST.TC004_Validating_JSON_Response -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
